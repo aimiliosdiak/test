@@ -1,0 +1,10 @@
+type Person struct {
+	// BirthDay time.Time 	json:"Birthday"
+	Id 		int
+	Description  	string		json:"description"	//description of person
+	Fname 		string		json:"first_name"
+	Lname 		string		json:"last_name"
+	Energy 	Mood		json:"energy"		// 0-5 
+	Brains 		Smartness	json:"brainpower"	// 0-2
+	Age 		int64 		json:"age"	
+}
